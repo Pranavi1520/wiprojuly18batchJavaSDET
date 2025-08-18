@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="functionaltesting" verbose="1">
+
+  <test name="functionaltesting">
+  
+  <groups>
+  <run>
+  <include name="Sanity"/>
+  </run>
+  </groups>
+  
+    <classes>
+       <class name="com.wipro.testng.Labsessionaug18.Techlisteg"/>
+       <class name="com.wipro.testng.Labsessionaug18.addtocarteg"/>
+    </classes>
+  </test>
+
+</suite>
